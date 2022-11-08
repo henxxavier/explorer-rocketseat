@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+
+
+:root {
+    --ff-header: 'epilogue', sans-serif;
+    --fftexting: 'Open sans', sans-serif;
+
+    --hue:250;
+    --bg-primary: hsl(var(--hue),22%,20%);
+    --fc-primary: hsl(var(--hue),0%,100%);
+    --fc-secondary: hsl(var(--hue),50%,80%);
+}
+
+body {
+    font-family: var(--fftexting);
+    background-color: var(--bg-primary);
+    color: var(--fc-primary);
+}
+
+header {
+    font-family: var(--ff-header);
+}
+
+header p {
+    color: var(--fc-secondary);
+    text-transform: uppercase;
+}
